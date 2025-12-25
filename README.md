@@ -1,4 +1,4 @@
-# Python for DevOps 🐍⚙️
+# Python for DevOps – Automation & Scripting
 
 This repository contains my **Python learning and practice work focused on DevOps use cases**.  
 The goal is to use Python as a **tool for automation, scripting, and system-level tasks**, not just general programming.
