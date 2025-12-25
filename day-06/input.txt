@@ -1,0 +1,10 @@
+INFO Server started successfully
+INFO User logged in
+WARNING Disk space is running low
+ERROR Failed to connect to database
+INFO Request processed
+WARNING High memory usage detected
+ERROR Timeout while calling API
+INFO Background job completed
+WARNING CPU usage high
+ERROR Service crashed unexpectedly
