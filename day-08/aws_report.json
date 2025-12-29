@@ -1,0 +1,32 @@
+{
+    "s3_buckets": [
+        "aws-batch10-bucket",
+        "testing-fahim-wbsite"
+    ],
+    "ec2_instances": [
+        {
+            "id": "i-026792ce16474c75e",
+            "state": "stopped"
+        },
+        {
+            "id": "i-042729d656075d161",
+            "state": "stopped"
+        },
+        {
+            "id": "i-0df6c73117164247f",
+            "state": "stopped"
+        },
+        {
+            "id": "i-0b75bc1bd4bd098b7",
+            "state": "stopped"
+        },
+        {
+            "id": "i-0ce9f0c9af664a01e",
+            "state": "stopped"
+        },
+        {
+            "id": "i-01f4fdfabd5a7ef35",
+            "state": "stopped"
+        }
+    ]
+}
