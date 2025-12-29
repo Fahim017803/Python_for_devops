@@ -1,5 +1,6 @@
 import boto3
 import json
+from pprint import pprint 
 
 s3 = boto3.client("s3")
 ec2 = boto3.client("ec2", region_name="us-east-1")
@@ -21,7 +22,7 @@ for reservation in ec2_response["Reservations"]:
         report["ec2_instances"].append(
             {"id": instance["InstanceId"], "state": instance["State"]["Name"]}
         )
-print(report)
+pprint(report)
 
 with open("aws_report.json", "w") as f:
     json.dump(report, f, indent=4)
