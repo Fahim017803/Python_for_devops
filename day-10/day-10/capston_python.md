@@ -1,83 +1,59 @@
-🔹 Capstone Proof Statement
+capstone:
+  proof_statement: >
+    Used Python to solve a real DevOps-style operational problem
+    through automation and system-level thinking.
 
-I used Python to solve a real DevOps-style operational problem using automation and system thinking.
+  includes:
+    - Log analysis using Python
+    - Non-interactive, automation-ready script
+    - Clear exit codes (machine-readable outcome)
+    - Designed for CI/CD pipelines and cron-based workflows
+    - One clean, working flow (not overengineered)
 
-🔹 What This Capstone Includes
+  star_explanation:
+    situation:
+      - Logs were growing daily
+      - Manual checking was time-consuming and unreliable
+      - No quick signal to understand system health
 
-Log analysis using Python
+    task:
+      - Automate log analysis using Python
+      - Make the solution reusable and automation-friendly
 
-Non-interactive, automation-ready script
+    action:
+      - Parsed logs to identify error patterns
+      - Structured logic with clear functions and comments
+      - Designed script for non-interactive execution
+      - Used exit codes to control automation pass/fail
 
-Clear exit codes (machine-readable outcome)
+    result:
+      - Manual log inspection eliminated
+      - Errors became visible immediately
+      - Script usable in cron jobs and CI/CD pipelines
+      - Demonstrated automation, reliability, and ownership
 
-Designed to fit into CI/CD or cron-based workflows
+  devops_mindset:
+    realisation:
+      - Python was not a random language choice
+      - Python is a DevOps enabler, not just a scripting language
 
-One clean, working flow — not overengineered.
+    devops_is_about:
+      - Automation
+      - Reliability
+      - Problem-solving
+      - Ownership
 
-🔹 S.T.A.R Explanation (Interview-Ready)
-Situation
+    takeaway: >
+      No longer learning syntax —
+      learning how production systems are handled.
 
-Logs were growing daily
+  demonstrates:
+    - End-to-end thinking
+    - Small tools solving real problems
+    - Reliability over complexity
+    - Clear communication using the STAR method
 
-Manual checking was time-consuming and unreliable
-
-No quick signal to understand system health
-
-Task
-
-Automate log analysis using Python
-
-Make the solution reusable and automation-friendly
-
-Action
-
-Wrote a Python script to parse logs and identify error patterns
-
-Structured the logic clearly with functions and comments
-
-Designed the script to run non-interactively
-
-Used exit codes so automation systems can decide pass/fail
-
-Result
-
-Manual log inspection was eliminated
-
-Errors became visible immediately
-
-The script can be plugged into cron jobs or CI/CD pipelines
-
-Demonstrated automation, reliability, and ownership
-
-🔹 DevOps Engineer Mindset (Key Realisation)
-
-Python was not a random language choice
-
-Python is a DevOps enabler, not just a scripting language
-
-DevOps is about:
-
-Automation
-
-Reliability
-
-Problem-solving
-
-Ownership
-
-I am no longer learning syntax —
-I am learning how production systems are handled.
-
-🔹 What This Capstone Demonstrates
-
-End-to-end thinking
-
-Small tools solving real problems
-
-Focus on reliability over complexity
-
-Clear communication using the STAR method
-
-🔹 One-Line Reflection
-
-DevOps is not about tools — it’s about solving problems reliably under real-world constraints.
+  one_line_reflection: >
+    DevOps is not about tools —
+    it is about solving problems reliably
+    under real-world constraints.
