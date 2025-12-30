@@ -3,12 +3,12 @@
 # ===============================
 
 capstone:
-  # ---- Proof that this project solves a real DevOps problem ----
+  # Proof that this project solves a real DevOps problem ----
   proof_statement: >
     Used Python to solve a real DevOps-style operational problem
     through automation and system-level thinking.
 
-  # ---- What this capstone includes (scope) ----
+  # What this capstone includes (scope) ----
   includes:
     - Log analysis using Python
     - Non-interactive, automation-ready script
@@ -16,7 +16,7 @@ capstone:
     - Designed for CI/CD pipelines and cron-based workflows
     - One clean, working flow (not overengineered)
 
-  # ---- Interview explanation using STAR method ----
+  # Interview explanation using STAR method ----
   star_explanation:
     situation:
       - Logs were growing daily
@@ -39,13 +39,13 @@ capstone:
       - Script usable in cron jobs and CI/CD pipelines
       - Demonstrated automation, reliability, and ownership
 
-  # ---- DevOps mindset learned from this project ----
+  # DevOps mindset learned from this project ----
   devops_mindset:
     realisation:
       - Python was not a random language choice
       - Python is a DevOps enabler, not just a scripting language
 
-  # ---- What this capstone demonstrates ----
+  # What this capstone demonstrates ----
   demonstrates:
     - End-to-end thinking
     - Small tools solving real problems
