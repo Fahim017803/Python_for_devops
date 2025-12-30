@@ -1,0 +1,5 @@
+INFO service started
+WARNING high memory
+ERROR db connection failed
+INFO retrying
+ERROR failed again
