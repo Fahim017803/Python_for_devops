@@ -1,75 +1,82 @@
 🚀 Capstone – Python for DevOps
-Problem-Solving Mindset: From Codeforces to Production Systems
-📌 Overview
 
-A Python-based DevOps utility that automates log analysis and exposes system health via a simple API.
-The project focuses on clarity, reliability, and automation rather than unnecessary complexity.
+Codeforces → DevOps | Problem-Solving to Production Thinking
 
-❓ The Real Problem
+🔹 What I Built
 
-In real systems, logs grow continuously.
-Manually scanning them is:
+Python-based DevOps utility
 
-Slow
+Automated log analysis
 
-Inconsistent
+Simple HTTP health check API
 
-Not scalable
+Lightweight, service-oriented design
 
-There was also no straightforward way to programmatically verify service health.
+🔹 Why This Was Needed
 
-🧠 Approach (Codeforces → DevOps)
+Logs grow every day
 
-I approached this project the same way I solve Codeforces problems, but with a production mindset:
+Manual checking is slow
 
-Identified the core problem before writing code
+No quick way to verify system health
+
+Not scalable in real systems
+
+🔹 How I Thought About the Problem
+
+(Codeforces-style approach applied to DevOps)
+
+Identified the core problem first
 
 Broke the system into small, deterministic steps
 
-Prioritized correctness, readability, and edge cases
+Focused on correctness and edge cases
 
-Avoided overengineering
+Avoided unnecessary complexity
 
-⭐ S.T.A.R Explanation
+🔹 S.T.A.R Explanation
 Situation
 
-Logs were increasing daily and manual inspection was inefficient.
+Logs increasing daily
+
+Manual inspection inefficient
 
 Task
 
-Automate log analysis and provide a reliable way to check system health.
+Automate log analysis
+
+Provide a reliable health check
 
 Action
 
-Wrote a clean Python script to parse logs and detect error patterns
+Parsed logs using Python
 
-Structured the logic using functions and clear naming
+Structured logic with clear functions
 
-Wrapped the automation inside a FastAPI service
+Wrapped automation with FastAPI
 
-Exposed a /health endpoint and ran it using Uvicorn
+Exposed /health endpoint
+
+Ran service using Uvicorn
 
 Result
 
-Manual operational work was reduced
+Manual effort reduced
 
-Errors could be identified quickly and consistently
+Faster error visibility
 
-System health became observable via HTTP
+System health observable via HTTP
 
-This solution reflects real DevOps thinking:
-automation + observability + ownership
+🔹 DevOps Thinking Demonstrated
 
-⚙️ DevOps Thinking Demonstrated
+Python → automation enabler
 
-Python used as an automation enabler
+API → service contract
 
-API treated as a service contract
+Logs → operational signals
 
-Logs treated as operational signals
+Small tools → reliable systems
 
-Small, reliable tools over large, fragile systems
+🔹 One-Line Summary
 
-🧾 One-Line Summary
-
-Applied Codeforces-style problem solving to build a simple, reliable DevOps automation service using Python.
+Turned manual operational work into an automated, observable DevOps service using Python.
