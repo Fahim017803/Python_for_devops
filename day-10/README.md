@@ -1,4 +1,4 @@
-🚀 Capstone – Python for DevOps
+ # Capstone – Python for DevOps
 Problem-Solving Mindset: From Codeforces to Production Systems
 📌 Overview
 
